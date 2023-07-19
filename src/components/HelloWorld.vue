@@ -13,7 +13,12 @@ const count = ref(0);
 
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
-    <img src="https://github.com/Jimmyluluu/image/blob/master/Standingsign.png?raw=true">
+    <img
+      src="https://github.com/Jimmyluluu/image/blob/master/Standingsign.png?raw=true"
+    />
+    <img
+      src="https://github.com/Jimmyluluu/image/blob/master/Card.png?raw=true"
+    />
   </div>
 </template>
 
