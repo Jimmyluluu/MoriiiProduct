@@ -11,7 +11,7 @@ const count = ref(0);
 <template>
   <h1>歡迎光臨 Moriii's Store</h1>
   <div class="columns-3">
-    <div class="card w-96 bg-violet-300 shadow-xl">
+    <div class="card w-96 bg-violet-300 et-300 shadow-xl">
       <figure>
         <img
           src="https://github.com/Jimmyluluu/image/blob/master/Selengangar-2.png?raw=true"
@@ -19,14 +19,14 @@ const count = ref(0);
         />
       </figure>
       <div class="card-body">
-        <h2 class="card-title">
+        <h2 class="card-title text-white font-black">
           Dragoons 盲抽吊飾
-          <div class="badge badge-secondary">NEW</div>
+          <div class="badge badge-secondary decoration-white">NEW</div>
         </h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <p class="text-white">If a dog chews shoes whose shoes does he choose?</p>
         <div class="card-actions justify-end">
-          <div class="badge badge-outline">Fashion</div>
-          <div class="badge badge-outline">Products</div>
+          <div class="badge badge-outline text-violet-500">Fashion</div>
+          <div class="badge badge-outline text-violet-500">Products</div>
         </div>
       </div>
     </div>
@@ -38,14 +38,14 @@ const count = ref(0);
         />
       </figure>
       <div class="card-body">
-        <h2 class="card-title">
+        <h2 class="card-title text-white font-black">
           Luxiem 飯友
           <div class="badge badge-secondary">NEW</div>
         </h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <p class="text-white">If a dog chews shoes whose shoes does he choose?</p>
         <div class="card-actions justify-end">
-          <div class="badge badge-outline">Fashion</div>
-          <div class="badge badge-outline">Products</div>
+          <div class="badge badge-outline text-violet-500">Fashion</div>
+          <div class="badge badge-outline text-violet-500">Products</div>
         </div>
       </div>
     </div>
@@ -57,14 +57,14 @@ const count = ref(0);
         />
       </figure>
       <div class="card-body">
-        <h2 class="card-title">
+        <h2 class="card-title text-white font-black">
           小立牌
           <div class="badge badge-secondary">NEW</div>
         </h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <p class="text-white">If a dog chews shoes whose shoes does he choose?</p>
         <div class="card-actions justify-end">
-          <div class="badge badge-outline">Fashion</div>
-          <div class="badge badge-outline">Products</div>
+          <div class="badge badge-outline text-violet-500">Fashion</div>
+          <div class="badge badge-outline text-violet-500">Products</div>
         </div>
       </div>
     </div>
