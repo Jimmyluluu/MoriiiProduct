@@ -21,9 +21,9 @@ const count = ref(0);
       <div class="card-body">
         <h2 class="card-title text-white font-black">
           Dragoons 盲抽吊飾
-          <div class="badge badge-secondary decoration-white">NEW</div>
+          <div class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full text-xs font-medium bg-pink-400 text-white">NEW</div>
         </h2>
-        <p class="text-white">If a dog chews shoes whose shoes does he choose?</p>
+        <p class="text-white">6*6 cm / 1抽 NT.100 / 3抽優惠價 NT.250</p>
         <div class="card-actions justify-end">
           <div class="badge badge-outline text-violet-500">Fashion</div>
           <div class="badge badge-outline text-violet-500">Products</div>
@@ -40,9 +40,9 @@ const count = ref(0);
       <div class="card-body">
         <h2 class="card-title text-white font-black">
           Luxiem 飯友
-          <div class="badge badge-secondary">NEW</div>
+          <div class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full text-xs font-medium bg-pink-400 text-white">NEW</div>
         </h2>
-        <p class="text-white">If a dog chews shoes whose shoes does he choose?</p>
+        <p class="text-white">4*4 cm / 1隻 NT.110 / Luxiem包團優惠價 NT.500 加贈一張限定款明信片</p>
         <div class="card-actions justify-end">
           <div class="badge badge-outline text-violet-500">Fashion</div>
           <div class="badge badge-outline text-violet-500">Products</div>
@@ -59,9 +59,9 @@ const count = ref(0);
       <div class="card-body">
         <h2 class="card-title text-white font-black">
           小立牌
-          <div class="badge badge-secondary">NEW</div>
+          <div class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full text-xs font-medium bg-pink-400 text-white">NEW</div>
         </h2>
-        <p class="text-white">If a dog chews shoes whose shoes does he choose?</p>
+        <p class="text-white">高 9~10 cm / 1隻 NT.150</p>
         <div class="card-actions justify-end">
           <div class="badge badge-outline text-violet-500">Fashion</div>
           <div class="badge badge-outline text-violet-500">Products</div>
