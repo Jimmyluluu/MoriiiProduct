@@ -11,7 +11,7 @@ const count = ref(0);
 <template>
   <h1>歡迎光臨 Moriii's Store</h1>
   <div class="columns-3">
-    <div class="card w-96 bg-base-100 shadow-xl">
+    <div class="card w-96 bg-violet-300 shadow-xl">
       <figure>
         <img
           src="https://github.com/Jimmyluluu/image/blob/master/Selengangar-2.png?raw=true"
@@ -20,7 +20,7 @@ const count = ref(0);
       </figure>
       <div class="card-body">
         <h2 class="card-title">
-          Shoes!
+          Dragoons 盲抽吊飾
           <div class="badge badge-secondary">NEW</div>
         </h2>
         <p>If a dog chews shoes whose shoes does he choose?</p>
@@ -30,16 +30,16 @@ const count = ref(0);
         </div>
       </div>
     </div>
-    <div class="card w-96 bg-base-100 shadow-xl">
+    <div class="card w-96 bg-violet-300 shadow-xl">
       <figure>
         <img
-          src="https://github.com/Jimmyluluu/image/blob/master/Standingsign.png?raw=true"
+          src="https://github.com/Jimmyluluu/image/blob/master/Luxiem.png?raw=true"
           alt="Shoes"
         />
       </figure>
       <div class="card-body">
         <h2 class="card-title">
-          Shoes!
+          Luxiem 飯友
           <div class="badge badge-secondary">NEW</div>
         </h2>
         <p>If a dog chews shoes whose shoes does he choose?</p>
@@ -49,16 +49,16 @@ const count = ref(0);
         </div>
       </div>
     </div>
-    <div class="card w-96 bg-base-100 shadow-xl">
+    <div class="card w-96 bg-violet-300 shadow-xl">
       <figure>
         <img
-          src="https://github.com/Jimmyluluu/image/blob/master/Standingsign.png?raw=true"
+          src="https://github.com/Jimmyluluu/image/blob/master/%E5%AE%A3%E5%82%B3%E8%BB%8A_selen%E8%80%BF%E9%AC%BC.png?raw=true"
           alt="Shoes"
         />
       </figure>
       <div class="card-body">
         <h2 class="card-title">
-          Shoes!
+          小立牌
           <div class="badge badge-secondary">NEW</div>
         </h2>
         <p>If a dog chews shoes whose shoes does he choose?</p>
