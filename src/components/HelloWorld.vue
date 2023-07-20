@@ -14,7 +14,7 @@ const count = ref(0);
     <div class="card w-96 bg-base-100 shadow-xl">
       <figure>
         <img
-          src="https://github.com/Jimmyluluu/image/blob/master/Standingsign.png?raw=true"
+          src="https://github.com/Jimmyluluu/image/blob/master/Selengangar-2.png?raw=true"
           alt="Shoes"
         />
       </figure>
