@@ -4,10 +4,14 @@ const items = ref([
   {
     imgUrl: "https://github.com/Jimmyluluu/image/blob/master/Selengangar-2.png?raw=true",
     title: "Dragoons 盲抽吊飾",
-    specification: "6*6 cm / 1抽 NT.100 / 3抽優惠價 NT.250",
+    specification: "6*6 cm / 1抽 NT.100 / 3抽優惠價 NT.250"
   },
+  {
+    imgUrl: "https://github.com/Jimmyluluu/image/blob/master/Luxiem.png?raw=true",
+    title: "Luxiem 飯友",
+    specification:"4*4 cm / 1隻 NT.110 / Luxiem包團優惠價 NT.500 加贈一張限定款明信片"
+  }
 ]);
-
 </script>
 
 <template>
@@ -60,31 +64,7 @@ const items = ref([
           </div>
         </div>
       </div>
-      <div class="card basis-1/3 bg-violet-300 shadow-xl">
-        <figure>
-          <img
-            src="https://github.com/Jimmyluluu/image/blob/master/Luxiem.png?raw=true"
-            alt="Shoes"
-          />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title text-white font-black">
-            Luxiem 飯友
-            <div
-              class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full text-xs font-medium bg-pink-400 text-white"
-            >
-              NEW
-            </div>
-          </h2>
-          <p class="text-white">
-            4*4 cm / 1隻 NT.110 / Luxiem包團優惠價 NT.500 加贈一張限定款明信片
-          </p>
-          <div class="card-actions justify-end">
-            <div class="badge badge-outline text-violet-500">Acryl Stand</div>
-            <div class="badge badge-outline text-violet-500">Products</div>
-          </div>
-        </div>
-      </div>
+    
       <div class="card basis-1/3 bg-violet-300 shadow-xl">
         <figure>
           <img
