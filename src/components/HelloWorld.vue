@@ -88,8 +88,7 @@ const items = ref([
       </div>
     </div>
   </div>
-  <br>
-  <br>
+  <div class="my-8"></div>
   <footer
     class="footer w-full p-10 text-violet-50"
     style="background-color: #8b75ba"
