@@ -1,11 +1,13 @@
 <script setup>
 import { ref } from "vue";
+const items = ref([
+  {
+    imgUrl: "https://github.com/Jimmyluluu/image/blob/master/Selengangar-2.png?raw=true",
+    title: "Dragoons 盲抽吊飾",
+    specification: "6*6 cm / 1抽 NT.100 / 3抽優惠價 NT.250",
+  },
+]);
 
-defineProps({
-  msg: String,
-});
-
-const count = ref(0);
 </script>
 
 <template>
@@ -35,23 +37,23 @@ const count = ref(0);
   <!-- <h1>歡迎光臨 Moriii's Store</h1> -->
   <div class="flex flex-col gap-8">
     <div class="flex flex-row flex-nowrap gap-8 md:flex-10 w-5/6">
-      <div class="card basis-1/3 bg-violet-300 et-300 shadow-xl">
+      <div v-for="item in items" class="card basis-1/3 bg-violet-300 et-300 shadow-xl">
         <figure>
           <img
-            src="https://github.com/Jimmyluluu/image/blob/master/Selengangar-2.png?raw=true"
+            :src="item.imgUrl"
             alt="Shoes"
           />
         </figure>
         <div class="card-body">
           <h2 class="card-title text-white font-black">
-            Dragoons 盲抽吊飾
+            {{item.title}}
             <div
               class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full text-xs font-medium bg-pink-400 text-white"
             >
               NEW
             </div>
           </h2>
-          <p class="text-white">6*6 cm / 1抽 NT.100 / 3抽優惠價 NT.250</p>
+          <p class="text-white">{{item.specification}}</p>
           <div class="card-actions justify-end">
             <div class="badge badge-outline text-violet-500">Charm</div>
             <div class="badge badge-outline text-violet-500">Products</div>
