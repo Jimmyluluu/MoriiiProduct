@@ -11,7 +11,7 @@ const count = ref(0);
 <template>
   <div class="navbar bg-white">
     <div class="flex-1">
-      <a class="btn btn-ghost normal-case text-xl">Moriii's Store</a>
+      <a class="btn btn-ghost normal-case text-xl" style="text-decoration-coloror: #8B75BA;">Moriii's Store</a>
     </div>
     <div class="flex-none">
       <ul class="menu menu-horizontal px-1">
@@ -177,7 +177,7 @@ const count = ref(0);
     </div>
   </div>
 
-  <footer class="footer p-10 bg-neutral text-neutral-content">
+  <footer class="footer p-10 text-violet-50" style="background-color: #8B75BA;">
     <div>
       <svg
         width="50"
@@ -194,7 +194,7 @@ const count = ref(0);
       </svg>
       <p>ACME Industries Ltd.<br />Providing reliable tech since 1992</p>
     </div>
-    <div>
+    <div class="text-violet-50">
       <span class="footer-title">Social</span>
       <div class="grid grid-flow-col gap-4">
         <a
