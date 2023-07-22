@@ -22,6 +22,7 @@
       </ul>
     </div>
   </div>
+  <div class="my-8"></div>
 
   <ProductPage />
 

@@ -1,23 +1,25 @@
 <template>
   <!-- <h1>歡迎光臨 Moriii's Store</h1> -->
-  <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-    <div v-for="item in items" class="card bg-violet-300 et-300 shadow-xl">
-      <figure>
-        <img :src="item.imgUrl" alt="Shoes" />
-      </figure>
-      <div class="card-body">
-        <h2 class="card-title text-white font-black">
-          {{ item.title }}
-          <div
-            class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full text-xs font-medium bg-pink-400 text-white"
-          >
-            NEW
+  <div class="container mx-auto">
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-3">
+      <div v-for="item in items" class="card bg-violet-300 shadow-xl">
+        <figure>
+          <img :src="item.imgUrl" alt="Shoes" />
+        </figure>
+        <div class="card-body">
+          <div class="card-title text-white font-black text-base">
+            {{ item.title }}
+            <div
+              class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full text-xs font-medium bg-pink-400 text-white"
+            >
+              NEW
+            </div>
           </div>
-        </h2>
-        <p class="text-white">{{ item.specification }}</p>
-        <div class="card-actions justify-end">
-          <div class="badge badge-outline text-violet-500">Charm</div>
-          <div class="badge badge-outline text-violet-500">Products</div>
+          <p class="text-white text-sm">{{ item.specification }}</p>
+          <div class="card-actions justify-end">
+            <div class="badge badge-outline text-violet-500">Charm</div>
+            <div class="badge badge-outline text-violet-500">Products</div>
+          </div>
         </div>
       </div>
     </div>
