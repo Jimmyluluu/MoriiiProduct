@@ -10,15 +10,6 @@
     <div class="flex-none">
       <ul class="menu menu-horizontal px-1">
         <li><a>賣場連結</a></li>
-        <li>
-          <details>
-            <summary>聯繫我</summary>
-            <ul class="p-2 bg-base-100">
-              <li><a>Facebook</a></li>
-              <li><a>Mail</a></li>
-            </ul>
-          </details>
-        </li>
       </ul>
     </div>
   </div>
