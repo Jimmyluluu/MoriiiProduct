@@ -16,8 +16,7 @@
           </div>
           <p class="text-white">{{ item.specification }}</p>
           <div class="card-actions justify-end">
-            <div class="badge badge-outline text-violet-500">Charm</div>
-            <div class="badge badge-outline text-violet-500">Products</div>
+            <div class="badge badge-outline text-violet-500"><a href="https://myship.7-11.com.tw/general/detail/GM2307251490031">Buy Now</a></div>
           </div>
         </div>
       </div>
