@@ -9,7 +9,7 @@
     </div>
     <div class="flex-none">
       <ul class="menu menu-horizontal px-1">
-        <li><a>賣場連結</a></li>
+        <li><a href="https://myship.7-11.com.tw/general/detail/GM2307251490031">賣場連結</a></li>
       </ul>
     </div>
   </div>
